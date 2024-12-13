@@ -1,16 +1,21 @@
 User Controller
-/api/users/register
-/api/users/login
+1)/api/users/register
+
+2)/api/users/login
 
 
 Patient Controller
-/api/patients/add
-/api/patients/{patientId}
-/api/patients/user/{userId}
+1)/api/patients/add
+
+2)/api/patients/{patientId}
+
+3)/api/patients/user/{userId}
 
 
 Heart Rate Controller
-/api/heart-rates/record
-/api/heart-rates/patient/{patientId}
+
+1)/api/heart-rates/record
+
+2)/api/heart-rates/patient/{patientId}
 
 
