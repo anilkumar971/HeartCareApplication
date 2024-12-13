@@ -1,21 +1,36 @@
 User Controller
-1)/api/users/register
+Register User
+POST http://localhost:8083/api/users/register
+Description: Registers a new user.
 
-2)/api/users/login
-
+Login User
+POST http://localhost:8083/api/users/login
+Description: Logs in a user using email and password.
 
 Patient Controller
-1)/api/patients/add
+Add Patient
+POST http://localhost:8083/api/patients/add
+Description: Adds a new patient.
 
-2)/api/patients/{patientId}
+Get Patient Details
+GET http://localhost:8083/api/patients/{patientId}
+Description: Retrieves details of a specific patient by patient ID.
 
-3)/api/patients/user/{userId}
-
+Get Patients by User
+GET http://localhost:8083/api/patients/user/{userId}
+Description: Retrieves all patients associated with a specific user ID.
 
 Heart Rate Controller
+Record Heart Rate
+POST http://localhost:8083/api/heart-rates/record
+Description: Records a new heart rate for a patient.
 
-1)/api/heart-rates/record
+Get Heart Rates by Patient
+GET http://localhost:8083/api/heart-rates/patient/{patientId}
+Description: Retrieves all heart rate records for a specific patient by patient ID.
 
-2)/api/heart-rates/patient/{patientId}
+
+
+
 
 
